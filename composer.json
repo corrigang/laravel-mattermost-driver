@@ -17,13 +17,21 @@
     "require": {
         "php": ">=7.0.0",
         "illuminate/support": "^5.0||^6.0||^7.0",
-        "gnello/php-mattermost-driver": "^2.3"
+        "corrigang/php-mattermost-driver": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "Gnello\\Mattermost\\Laravel\\": "src/"
         }
     },
+ "repositories": [
+        {
+          "type": "vcs",
+          "url":  "https://github.com/corrigang/php-mattermost-driver"
+        }
+     ],
+
+
     "extra": {
         "laravel": {
             "providers": [
