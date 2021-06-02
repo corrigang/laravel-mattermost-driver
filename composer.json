@@ -1,5 +1,5 @@
 {
-    "name": "corrigan/laravel-mattermost-driver",
+    "name": "corrigang/laravel-mattermost-driver",
     "description": "Laravel integration of php-mattermost-driver",
     "keywords": ["mattermost", "chat"],
     "homepage": "https://github.com/gnello/laravel-mattermost-driver",
